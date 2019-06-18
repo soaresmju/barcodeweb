@@ -5,7 +5,7 @@
                 
                 $id = $_GET['id'];
                 
-               $query="SELECT * FROM tb_celular order by cd_celular";
+               $query="SELECT * FROM tb_celular order by cd_celular = $idgi";
                 
                 $resultado = mysqli_query($conexao,$query);
                 
