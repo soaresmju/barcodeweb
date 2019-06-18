@@ -6,7 +6,7 @@
                 $nome= $_POST['nome'];
                 $barra= $_POST['barra'];
                 $valor= $_POST['valor'];
-                $descricao= $_POST['desc'];
+                $descricao= $_POST['descricao'];
                 $processador= $_POST['processador'];
                 $sistema= $_POST['sistema'];
                 $tela= $_POST['tela'];
