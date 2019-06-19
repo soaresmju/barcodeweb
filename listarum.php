@@ -1,7 +1,7 @@
 <?php
           
             try{
-                $conexao = mysqli_connect("localhost","yohannan","","barcode");
+                $conexao = mysqli_connect("localhost","soaresmju","","barcode");
                 
                 $id = $_GET['id'];
                 
